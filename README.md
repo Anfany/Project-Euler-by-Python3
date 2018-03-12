@@ -244,7 +244,28 @@
 
 ### 018. 最大路径和(基础版)(Maximum path sum I)
 
-从一个2×2方阵的左上角出发，只允许向右或向下移动，则恰好有6条通往右下角的路径。
+从下图三角形的顶端出发，不断移动到在下一行与其相邻的元素(例如数字7只能移动到下一行的2或者4，而不能到达6)，得到的最大路径和(红色数字表示的路径)是23。
+
+
+如上图，最大路径和为 3 + 7 + 4 + 9 = 23。求从下面的三角形顶端出发到达底部，所能够得到的最大路径和。
+
+&emsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;75
+&emsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;95 64
+&emsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;17 47 82
+&emsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;18 35 87 10
+&emsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;20 04 82 47 65
+&emsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;19 01 23 75 03 34
+&emsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;88 02 77 73 07 63 67
+&emsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;99 65 04 28 06 16 70 92
+&emsp;&ensp;&ensp;&ensp;&ensp;&ensp;41 41 26 56 83 40 80 70 33
+&emsp;&ensp;&ensp;&ensp;&ensp;41 48 72 33 47 32 37 16 94 29
+&emsp;&ensp;&ensp;&ensp;53 71 44 65 25 43 91 52 97 51 14
+&emsp;&ensp;&ensp;70 11 33 28 77 73 17 78 39 68 17 57
+&emsp;&ensp;91 71 52 38 17 14 91 43 58 50 27 29 48
+&emsp;63 66 04 68 89 53 67 30 73 16 69 87 40 31
+04 62 98 27 23 09 70 98 73 93 38 53 60 04 23
+
+【注：在上面这个问题中，由于只有16384条路径，通过尝试所有的路径来解决问题是可行的。但是如果三角形变大，暴力破解将不能解决，而需要一个更加聪明的办法】
 
 ### 019. 星期日个数(Counting Sundays)
 
