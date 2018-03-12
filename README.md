@@ -249,6 +249,7 @@
 
 如上图，最大路径和为 3 + 7 + 4 + 9 = 23。求从下面的三角形顶端出发到达底部，所能够得到的最大路径和。
 
+```
 &emsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;75
 &emsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;95 64
 &emsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;17 47 82
@@ -264,6 +265,7 @@
 &emsp;&ensp;91 71 52 38 17 14 91 43 58 50 27 29 48
 &emsp;63 66 04 68 89 53 67 30 73 16 69 87 40 31
 04 62 98 27 23 09 70 98 73 93 38 53 60 04 23
+```
 
 【注：在上面这个问题中，由于只有16384条路径，通过尝试所有的路径来解决问题是可行的。但是如果三角形变大，暴力破解将不能解决，而需要一个更加聪明的办法】
 
