@@ -1,1 +1,1 @@
- ### A place for the figure of problem storage
+ ### A place for the figures of problem storage
