@@ -1196,9 +1196,7 @@ e的前十个逼近值为：
 
 ![image](https://upload-images.jianshu.io/upload_images/4734220-d66d7866665120b7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/249)
 
-在文件[matrix.txt](https://projecteuler.net/project/resources/p081_matrix.txt)中包含了一个80\*80的矩阵。
-
-求该矩阵的左上角到右下角的最小路径和。
+在文件[matrix.txt](https://projecteuler.net/project/resources/p081_matrix.txt)中包含了一个80\*80的矩阵。求该矩阵的左上角到右下角的最小路径和。
 
 ### 082. 最小路径和(中级):3个方向(Path sum: three ways)
 
@@ -1210,9 +1208,7 @@ e的前十个逼近值为：
 
 ![image](https://upload-images.jianshu.io/upload_images/4734220-fc4e1f7f0db373e5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/262)
 
-在文件[matrix.txt](https://projecteuler.net/project/resources/p082_matrix.txt)中包含了一个80\*80的矩阵。
-
-求该矩阵的最左列到最右列的最小路径和。
+在文件[matrix.txt](https://projecteuler.net/project/resources/p082_matrix.txt)中包含了一个80\*80的矩阵。求该矩阵的最左列到最右列的最小路径和。
 
 ### 083. 最小路径和(高级):4个方向(Path sum: four ways)
 
@@ -1222,7 +1218,7 @@ e的前十个逼近值为：
 
 路径已由红色数字标出：
 
-![image](https://upload-images.jianshu.io/upload_images/4734220-44d12ac1de450554.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/258
+![image](https://upload-images.jianshu.io/upload_images/4734220-44d12ac1de450554.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/258)
 
 在文件[matrix.txt](https://projecteuler.net/project/resources/p083_matrix.txt)中包含了一个80\*80的矩阵，求该矩阵的左上角到右下角的最小路径和。
 
@@ -1427,18 +1423,32 @@ e的前十个逼近值为：
 
 ### 094. 近似等边三角形(Almost equilateral triangles)
 
+可以证明，不存在边长为整数的等边三角形其面积也是整数。但是，存在近似等边三角形 ，例如三边分别为5，5，6，其面积恰好为12。现定义有两条边一样长，且第三边与这两边最多相差为1的三角形为**近似等边三角形**。
+
+对于所有边长和面积均为整数且周长不超过十亿的三角形，求其中所有近似等边三角形的周长之和。
+
+
 ### 095. 亲和数链(Amicable chains)
 
+一个数除了本身之外的其他因数称为**真因数**。例如，28的真因数有1、2、4、7和14。这些真因数的和恰好为28，因此称28是**完全数**。有趣的是，220的真因数之和是284，同时284的真因数之和是220，构成了一个长度为2的链，我们称之为**亲和数对**。
+
+有一些更长的序列并不太为人所知。例如，从12496出发，可以构成一个如下长度为5的链：
+
+**12496** --> 14288 --> 15472 --> 14536 --> 14264 --> **12496** --> …
+
+由于这条链最后又回到了起点，称之为**亲和数链**。
+
+找出所有元素都不超过100万的亲和数链中最长的那条，并给出其中最小的那个数。
 
 ### 096. 数独(Su Doku)
 
-**数独**是一种热门的谜题。它的起源已不可考，但它与欧拉发明的一种类似的谜题拉丁方阵之间有着千丝万缕的联系。数独是利用1~9的数字替换掉9\*9网格中的空白位置，使得每行、每列以及每个九宫格中恰好都包含数字1~9。如下是一个典型的数独谜题以及它的解答：
+**数独**是一种热门的谜题。它的起源已不可考，但它与欧拉发明的一种类似的谜题拉丁方阵之间有着千丝万缕的联系。数独是利用1至9的数字替换掉9\*9网格中的空白位置，使得每行、每列以及每个九宫格中恰好都包含数字1至9。如下是一个典型的数独谜题以及它的解答：
 
 ![image](https://upload-images.jianshu.io/upload_images/4734220-2b40266e14fb43ce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/475)
   
-  一个构造精良的数独谜题应该包含有唯一解，且能够通过逻辑推断来解决，尽管有时可能必须通过“猜测并检验”来排除一些选项。寻找答案的复杂度决定了题目的难度；上面这个谜题被认为是一个比较简单的谜题，因为可以通过逻辑推断来解决它。
+一个构造精良的数独谜题应该包含有唯一解，且能够通过逻辑推断来解决，尽管有时可能必须通过“猜测并检验”来排除一些选项。寻找答案的复杂度决定了题目的难度；上面这个谜题被认为是一个比较简单的谜题，因为可以通过逻辑推断来解决它。
   
-  在文件[sudoku.txt](https://projecteuler.net/project/resources/p096_sudoku.txt)中包含有50个不同难度的数独谜题，它们都只有唯一解。上面给出的示例就是文件中的第一个谜题。
+在文件[sudoku.txt](https://projecteuler.net/project/resources/p096_sudoku.txt)中包含有50个不同难度的数独谜题，它们都只有唯一解。上面给出的示例就是文件中的第一个谜题。
   
 解开这50个谜题，找出每个谜题解答左上角的三个数字并连接起来，给出这些数的和。例如：上述示例解答左上角的三个数字连接起来构成的数是483。  
   
@@ -1465,7 +1475,7 @@ e的前十个逼近值为：
 
 在文件[base_exp.txt](https://projecteuler.net/project/resources/p099_base_exp.txt)有一千行，每一行有一对底数和指数，找出哪一行给出的幂值最大。文件的前两行就是上面给出的两个例子。
 
-### 0100. 概率反推(Arranged probability)
+### 100. 概率反推(Arranged probability)
 
 一个盒子中装有21个彩色碟子，其中15个是蓝的，6个是红的。如果随机地从盒子中取出两个碟子，取出两个蓝色碟子的概率是:
 
