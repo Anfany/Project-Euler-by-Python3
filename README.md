@@ -5,7 +5,7 @@
 
 codefiles：更新到100题，文件夹：[Problem001-100](https://github.com/Anfany/Project-Euler/tree/master/Problem001-100)
 
-最后一次更新：2018年3月15日 09：42
+最后一次更新：2018-3-15 09:42
 
 
 
