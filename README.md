@@ -3,7 +3,7 @@
 
 中文题目：更新到100题，文件：[中文题目001-100.md](https://github.com/Anfany/Project-Euler/blob/master/%E4%B8%AD%E6%96%87%E9%A2%98%E7%9B%AE001-100.md)
 
-codefiles：更新到100题，文件夹：[Problem001-100](https://github.com/Anfany/Project-Euler/edit/master/Problem001-100)
+codefiles：更新到100题，文件夹：[Problem001-100](https://github.com/Anfany/Project-Euler/tree/master/Problem001-100)
 
 最后一次更新：2018年3月14日
 
