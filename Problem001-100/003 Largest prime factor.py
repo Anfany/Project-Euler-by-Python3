@@ -4,18 +4,16 @@
 
 
 # Problem003 Largest prime factor
+def getfactor(num):
+    arr = []
+    i = 2
+    while num != 1:
+        if num % i == 0:
+            while num % i == 0:
+                arr.append(i)
+                num /= i
+        i = i + 1
+    return  max(arr)
+print(getfactor(600851475143))
 
-def an_prime(number):#判断是否为素数
-    if number==1 or number==2:
-        return False
-    for i in range(2,int(number**0.5)+1):#一个数的最大因数不超过其平方根
-        if number%i==0:
-            return False
-    return True
-an=0
-for i in range(2,int(600851475143**0.5)):
-    if 600851475143%i==0 and an_prime(i):
-       if an<i:
-          an=i
-print(an)
 #答案：6857
