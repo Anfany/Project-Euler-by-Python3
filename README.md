@@ -13,8 +13,8 @@
 
 更新到100题，最后一次更新：2018-3-15 09:42
 
-###### 关注订阅号，获取更多编程、机器学习等文章。
-![image]()
+###### 扫描二维码，关注订阅号，获取更多编程、机器学习等文章。
+![image](https://github.com/Anfany/Machine-Learning-for-Beginner-by-Python3/blob/master/pythonfan_anfany.jpg)
 
 
 
